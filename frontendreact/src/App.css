@@ -1,0 +1,135 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #313844;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #fff6e8;
+}
+
+.App-link {
+    color: #313844;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.Footer {
+    background-color: #EB6B30;
+    color: #fff6e8;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+.fa-1x {
+    font-size: 1.5rem;
+}
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+.fondo-baby-pink {
+    background-color: #EB6B30;
+}
+.btn-baby-pink {
+    border-color: #EB6B30 !important;
+    color: #ffffff;
+}
+
+.fondo-light-coral {
+    background-color: #e78f8e;
+}
+.btn-light-coral {
+    border-color: #e78f8e !important;
+    color: #ffffff;
+}
+
+.btn-out-light-coral {
+    border-color: #e78f8e !important;
+    color: #e78f8e;
+}
+
+.fondo-misty-rose {
+    background-color: #fff6e8;
+}
+.btn-misty-rose {
+    border-color: #fff6e8 !important;
+    color: #ffffff;
+}
+
+.fondo-celestio {
+    background-color: #3b8cc2;
+}
+.btn-celestio {
+    border-color: #3b8cc2 !important;
+    color: #ffffff;
+}
+
+.fondo-pink-sherbet {
+    background-color: #313844;
+}
+.btn-pink-sherbet {
+    border-color: #313844 !important;
+    color: #ffffff;
+}
+.btn-pink-sherbet:hover {
+    color: #ffffff;
+    background-color: #ce1235;
+}
+
+.fondo-red-crayola {
+    background-color: #ed3153;
+}
+.btn-red-crayola {
+    border-color: #ed3153 !important;
+    color: #ffffff;
+}
+
+.btn-out-red-crayola {
+    border-color: #a20934 !important;
+    color: #a20934;
+}
+.btn-out-red-crayola:hover {
+    color: #ffffff;
+    background-color: #ed3153;
+}
+
+.color-error {
+    color: #ed3153;
+}
+.fondo-lavender-blush {
+    background-color: #fdecf0;
+}
+.btn-lavender-blush {
+    border-color: #fdecf0 !important;
+    color: #ffffff;
+}
+.btn-lavender-blush:hover {
+    background-color: #f36881;
+    color: #ffffff;
+}
